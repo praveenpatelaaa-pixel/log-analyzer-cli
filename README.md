@@ -21,3 +21,6 @@ The hardest issue was handling missing files, which I fixed by adding file exist
 - Add support for different log formats
 - Generate summary reports
 - Add date-wise error filtering
+
+## Future Improvements
+[program output] (output.png0
