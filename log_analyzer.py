@@ -1,29 +1,30 @@
 import sys
 import re
 
-# 1. file name lena (terminal se)
+# 1. taking a file name to terminal
 file_name = sys.argv[1]
 
-# 2. error count
+# 2. to count error
 error_count = 0
 
-# 3. error messages list
+# 3. list a error message
 error_messages = []
 
-# 4. file open karna
+# 4. opening a file
 with open(file_name, "r") as file:
     for line in file:
         # agar line me [ERROR] hai
         if "[ERROR]" in line:
             error_count += 1
 
-            # [ERROR] ke baad ka message nikalna
+            # [ERROR] taking out the message after error
             message = re.search(r"\[ERROR\]\s+(.*)", line)
             if message:
                 error_messages.append(message.group(1))
 
-# 5. result print karna
+# 5. printing theresult
 print("Total Errors:", error_count)
 print("Error Messages:")
 for msg in error_messages:
+
     print("-", msg)
