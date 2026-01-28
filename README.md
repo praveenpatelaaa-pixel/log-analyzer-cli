@@ -23,4 +23,8 @@ The hardest issue was handling missing files, which I fixed by adding file exist
 - Add date-wise error filtering
 
 ## Future Improvements
-
+If I had 2 more days, I would improve error handling and add basic unit tests to make the application more reliable. I would also refactor the code to improve readability and maintainability.
+✔ Simple
+✔ Realistic
+✔ Professional
+✔ Exactly what interviewers expect from a fresher
