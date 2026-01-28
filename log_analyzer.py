@@ -13,7 +13,7 @@ error_messages = []
 # 4. opening a file
 with open(file_name, "r") as file:
     for line in file:
-        # agar line me [ERROR] hai
+        # if error in a line
         if "[ERROR]" in line:
             error_count += 1
 
@@ -28,3 +28,4 @@ print("Error Messages:")
 for msg in error_messages:
 
     print("-", msg)
+
