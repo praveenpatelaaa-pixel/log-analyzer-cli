@@ -23,4 +23,4 @@ The hardest issue was handling missing files, which I fixed by adding file exist
 - Add date-wise error filtering
 
 ## Future Improvements
-[program output] (output.png)
+![program output] (output.png)
